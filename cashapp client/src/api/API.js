@@ -1,4 +1,5 @@
 const api = process.env.REACT_APP_CONTACTS_API_URL || 'http://localhost:3000'
+const api1 = process.env.REACT_APP_CONTACTS_API_URL1 || 'http://localhost:3002'
  
 const headers = {
     'Accept': 'application/json'
@@ -206,7 +207,7 @@ fetch(`${api}/profile/getprofileimage`, {     // ${api}/users/doLogin` this cont
             });
 
             export const addmoney = (payload) =>    //payload contains the credentials of login.
-        fetch(`http://localhost:3002/account/addmoney`, {     // ${api}/users/doLogin` this contains the address of the backend server.
+        fetch(`${api1}/account/addmoney`, {     // ${api}/users/doLogin` this contains the address of the backend server.
             method: 'POST',
             headers: {
                 ...headers,
@@ -224,7 +225,7 @@ fetch(`${api}/profile/getprofileimage`, {     // ${api}/users/doLogin` this cont
             });
 
             export const paymoney = (payload) =>    //payload contains the credentials of login.
-        fetch(`http://localhost:3002/account/paymoney`, {     // ${api}/users/doLogin` this contains the address of the backend server.
+        fetch(`${api1}/account/paymoney`, {     // ${api}/users/doLogin` this contains the address of the backend server.
             method: 'POST',
             headers: {
                 ...headers,
@@ -242,7 +243,7 @@ fetch(`${api}/profile/getprofileimage`, {     // ${api}/users/doLogin` this cont
             });
 
             export const deductmoney = (payload) =>    //payload contains the credentials of login.
-        fetch(`http://localhost:3002/account/deductmoney`, {     // ${api}/users/doLogin` this contains the address of the backend server.
+        fetch(`${api1}/account/deductmoney`, {     // ${api}/users/doLogin` this contains the address of the backend server.
             method: 'POST',
             headers: {
                 ...headers,
@@ -260,7 +261,7 @@ fetch(`${api}/profile/getprofileimage`, {     // ${api}/users/doLogin` this cont
             });
 
             export const getBalance=()=>
-fetch(`http://localhost:3002/account/getBalance`, {     // ${api}/users/doLogin` this contains the address of the backend server.
+fetch(`${api1}/account/getBalance`, {     // ${api}/users/doLogin` this contains the address of the backend server.
         method: 'GET',
         headers: {
             ...headers,
