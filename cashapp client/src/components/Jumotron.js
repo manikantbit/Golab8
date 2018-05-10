@@ -19,9 +19,9 @@ class Jumbotron extends Component {
               
               <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
   <ol className="carousel-indicators">
-    <li data-target="http://localhost:3001" data-slide-to="0" class="active"></li>
-    <li data-target="http://localhost:3001" data-slide-to="1"class="active"> </li>
-    <li data-target="http://localhost:3001" data-slide-to="2"></li>
+    <li data-target="https://team-project281.herokuapp.com" data-slide-to="0" class="active"></li>
+    <li data-target="https://team-project281.herokuapp.com" data-slide-to="1"class="active"> </li>
+    <li data-target="https://team-project281.herokuapp.com" data-slide-to="2"></li>
   </ol>
   <div className="carousel-inner">
     <div className="carousel-item active">
@@ -54,7 +54,7 @@ class Jumbotron extends Component {
               <h1><font color="dodgerblue"></font></h1> 
               <br/>
               <button  className="btn btn-outline-primary" onClick={() => {
-                        window.location.href="http://localhost:3001/login";
+                        window.location.href="https://team-project281.herokuapp.com/login";
                             
                         }}>
                             Deposit Money
@@ -62,7 +62,7 @@ class Jumbotron extends Component {
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
                         <button className="btn btn-outline-primary" onClick={() => {
-                            window.location.href="http://localhost:3001/login";
+                            window.location.href="https://team-project281.herokuapp.com/login";
                             
                         }}>
                         Withdraw Money
