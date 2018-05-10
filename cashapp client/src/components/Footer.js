@@ -18,7 +18,7 @@ class Jumbotron extends Component {
       
     
     <div className="footer-copyright py-3 text-center">
-        © 2018 Copyright:CMPE273
+        © 2018 Copyright:SharkHead
         
     </div>
     

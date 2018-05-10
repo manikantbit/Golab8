@@ -31,7 +31,7 @@ componentWillMount(){
         return (
             <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
 
-  <a className="navbar-brand" href="http://localhost:3001/"><img src={Image}height ='60' width='130'></img></a>
+  <a className="navbar-brand" href="https://team-project281.herokuapp.com"><img src={Image}height ='60' width='130'></img></a>
 
   
   <ul className="navbar-nav">
@@ -39,10 +39,10 @@ componentWillMount(){
     
     
     <li className="nav-item">
-      <a className="nav-link" href="http://localhost:3001/account">My Balance</a>
+      <a className="nav-link" href="https://team-project281.herokuapp.com/account">My Balance</a>
     </li>
     <li className="nav-item">
-      <a className="nav-link" href="http://localhost:3001/account">Account</a>
+      <a className="nav-link" href="https://team-project281.herokuapp.com/account">Account</a>
     </li>
     
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
